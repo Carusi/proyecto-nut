@@ -72,3 +72,5 @@ Route::get('/editarCategoria{category}', [CategoryController::class, 'edit'])->n
 
 //Crud tag
 Route::resource('tags', TagController::class)->names('dashboard.tags');
+
+//Prueba de cambios usando git, y enviando commits
