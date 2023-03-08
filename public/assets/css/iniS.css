@@ -1,0 +1,55 @@
+:root{
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+    --1: #f8da30;
+    --2: #fbce45;
+    --3: #f2e8c1;
+    --4: #e6e1dd;
+    --5: #733e1e;
+    --6: #532410;
+    --7: #6eac47;
+    --8: #568738;
+    --9: #fdf9f6;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark{background-color: var(--9) !important;
+}
+
+.bg-dark-x{
+    background-color: var(--4) !important;
+}
+
+.btn-secondary{
+    background-color: #12682f !important;
+
+}
+
+.img-fluid{
+    width: 400px;
+    height: 90px;
+  
+}
+
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-1{
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2{
+    background-image: url('6.jpg');
+    background-size: cover;
+    background-position: center;
+}

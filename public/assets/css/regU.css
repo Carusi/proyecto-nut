@@ -1,0 +1,73 @@
+:root{
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+    --1: #f8da30;
+    --2: #fbce45;
+    --3: #f2e8c1;
+    --4: #e6e1dd;
+    --5: #733e1e;
+    --6: #532410;
+    --7: #6eac47;
+    --8: #568738;
+    --9: #fdf9f6;
+   
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--dark);
+}
+
+.bg-dark{background-color: var(--9) !important;
+}
+
+.bg-dark-x{
+    background-color: var(--4) !important;
+}
+
+.btn-dark{
+    background-color: #b8b9bb !important;
+}
+
+.btn-secondary{
+    background-color: #d4b243!important;
+
+}
+
+.img-fluid{
+    width: 400px;
+    height: 90px;
+  
+}
+
+.form-control, .btn{
+    min-height: 3rem;
+    line-height: initial;
+}
+
+.img-1{
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2{
+    background-image: url('8.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-control{
+   
+    height: 1px  !important;
+  }
+
+  .ta{
+
+       
+    height: 45px  !important;
+
+  }
+/*#caa541  #d4b243*/
